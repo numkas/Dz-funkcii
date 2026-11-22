@@ -3,7 +3,7 @@ def  average_grade(a,b,c):
 def grade_message(average):
     if average >= 4.5:
         return "Отлично"
-    elif  3.5 <= average >= 4.5:
+    elif  3.5 <= average > 4.5:
         return "Хорошо"
     else:
         return "Надо подучить"
