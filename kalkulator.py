@@ -7,6 +7,9 @@ def grade_message(average):
         return "Хорошо"
     else:
         return "Надо подучить"
-d = average_grade(3,4,3)
-v = grade_message(d)
-print(F"Средний бал {d:.2f}.   Резултат: {v}") #(:.2f) для вывода числа с двумя знаками после точки и не выводилась очень большая дробь
+d1 = average_grade(3,4,3)
+v1 = grade_message(d1)
+print(F"Средний бал {d1:.2f}.   Резултат: {v1}") #(:.2f) для вывода числа с двумя знаками после точки и не выводилась очень большая дробь
+d2 = average_grade(5,4,5)
+v2 = grade_message(d2)
+print(F"Средний бал {d2:.2f}.   Резултат: {v2}")
